@@ -16,10 +16,10 @@ bool es_primo(int n) {
 int main() {
     int limite;
 
-    printf("Introduce el límite para la secuencia de números primos: ");
+    printf("Introduce the límit for the sequence of prime numbers: ");
     scanf("%d", &limite);
 
-    printf("\nNúmeros primos hasta el %d:\n", limite);
+    printf("\nPrime numbers up to %d:\n", limite);
     for (int i = 2; i <= limite; i++) {
         if (es_primo(i)) {
             printf("%d ", i);
